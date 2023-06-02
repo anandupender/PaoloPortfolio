@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Gratelos';
+  src: url("../fonts/Gratelos.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Aeroxys';
+  src: url("../fonts/Aeroxys.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+
+html {
+  cursor: url("/img/pencil.svg") 100 10, auto; }
+
+body {
+  margin: 0;
+  font-family: Gratelos, serif; }
+
+#nav {
+  position: absolute; }
+
+.paolo-blue-bg {
+  background-color: #0000FF; }
+
+.text-paolo-blue {
+  color: #0000FF; }
+
+::selection {
+  background: #150053; }
+
+::-moz-selection {
+  background: #150053; }
+
+.text-white {
+  color: rgba(255, 255, 255, 0.91) !important; }
+
+.sp-font {
+  font-family: Aeroxys, sans-serif; }
