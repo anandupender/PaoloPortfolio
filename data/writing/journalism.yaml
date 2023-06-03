@@ -1,0 +1,34 @@
+type: journalism
+all:
+  item:
+    source: eaterSF
+    name: testtest
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+  item2:
+    source: My Friend 
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+  item3:
+    source: My Friend 
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+  item4:
+    source: My Friend 
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+  item6:
+    source: eaterSF
+    name: testtest
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+  item5:
+    source: My Friend 
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+  item7:
+    source: My Friend 
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+  item8:
+    source: My Friend 
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release

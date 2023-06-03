@@ -1,0 +1,10 @@
+type: poetry
+all:
+  item:
+    source: poetry 1
+    name: testtest
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+  item2:
+    source: Poetry 2
+    name: testtestw
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release

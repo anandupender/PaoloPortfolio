@@ -57,8 +57,21 @@ a{
 .text-white{
     color: rgba($color: #FFFFFF, $alpha: .91) !important;
 }
+.bg-white{
+    background-color: rgba($color: #FFFFFF, $alpha: .91) !important;
+}
 .sp-font{
     font-family: Aeroxys, sans-serif;
+}
+
+input[type="radio"]{
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+input[type="radio"]:checked + label{
+    background-color: white !important;
+    color: #0000FF !important;
 }
 
 // HOVER STATES

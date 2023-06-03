@@ -1,0 +1,10 @@
+type: books
+all:
+  item:
+    source: book 1
+    name: book 1
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+  item2:
+    source: book 1
+    name: book 1
+    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release

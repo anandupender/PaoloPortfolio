@@ -6,49 +6,93 @@
 
     <section class="pt-2 pb-0 px-7">
         <h2 class="text-white text-4xl mb-4">Filter by</h2>
-        <div class="flex flex-row flex-wrap gap-2">
-            <div class="text-center bg-white text-paolo-blue inline-block text-2xl md:text-3xl py-2 px-4 rounded-full md:mr-8">Poetry</div>
-            <div class="text-center bg-white text-paolo-blue inline-block text-2xl md:text-3xl py-2 px-4 rounded-full md:mr-8">Journalism</div>
-            <div class="text-center bg-white text-paolo-blue inline-block text-2xl md:text-3xl py-2 px-4 rounded-full md:mr-8">Published Books</div>
-        </div>
+         <form name="writing-type" class="flex flex-row flex-wrap gap-4">
+            <input name="type" type="radio" id="all" value="all" checked="checked">
+            <label for="all" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                All
+            </label>
+
+            <input name="type" type="radio" id="journalism" value="journalism">
+            <label for="journalism" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Journalism
+            </label>
+
+            <input name="type" type="radio" id="poetry" value="poetry">
+            <label for="poetry" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Poetry
+            </label>
+
+            <input name="type" type="radio" id="books" value="books">
+            <label for="books" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Books
+            </label>
+        </form>
     </section>
 
     <section class="pt-16 pb-0 px-7 pb-32">
-        <div class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue">
-
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">Eater SF</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">A New Taco Stand is Bringing Indigenous Flavors to the Outer Sunset</div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 md:col-span-2">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
-                </div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 md:col-span-2">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
-                </div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
-                </div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">Eater SF</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming</div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 ">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">HOW COVID KICKSTARTED NEW SAN FRANCISCO CHRISTMAS TRADITIONS</div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 ">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">HOW COVID KICKSTARTED NEW SAN FRANCISCO CHRISTMAS TRADITIONS</div>
-            </a>
+        <!-- ALL  -->
+        <div id="all-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue">
+            {{ range $.Site.Data.writing }}
+                {{ partial "singlewriting.html" . }}
+            {{ end }}
         </div>
+
+        <!-- JOURNALISM -->
+        <div id="journalism-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue"  style="display:none">
+            {{ range $.Site.Data.writing }}
+                {{ if eq .type "journalism" }}
+                     {{ partial "singlewriting.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
+
+        <div id="poetry-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue" style="display:none">
+            {{ range $.Site.Data.writing }}
+                {{ if eq .type "poetry" }}
+                    {{ partial "singlewriting.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
+
+        <div id="book-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue" style="display:none">
+            {{ range $.Site.Data.writing }}
+                {{ if eq .type "books" }}
+                    {{ partial "singlewriting.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
+         
     </section>
-    
 </div>
+
+<script>
+    var radios = document.forms["writing-type"].elements["type"];
+    for(var i = 0, max = radios.length; i < max; i++) {
+        radios[i].onclick = function() {
+            if(this.value == "all"){
+                document.querySelector("#all-content").style.display = "grid";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "none";
+            }else if(this.value == "journalism"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "grid";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "none";            
+            
+            }else if(this.value == "poetry"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "grid";
+                document.querySelector("#book-content").style.display = "none";            
+            }
+            else if(this.value == "books"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "grid";            
+            }
+        }
+    }
+</script>
 {{ end }}
