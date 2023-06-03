@@ -63,6 +63,10 @@ a{
 
 // HOVER STATES
 
-button:hover{
+button:hover, .button:hover{
     transform: scale(1.1);
+}
+
+a.button{
+    text-decoration: none !important;
 }
