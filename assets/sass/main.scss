@@ -170,6 +170,7 @@ div.grow-4{
 }
 
 #moveInAnimation{
+    opacity: 0;
     animation: moveIn 1.5s .1s ease forwards;
     transform-origin: center top;
     overflow: hidden;
