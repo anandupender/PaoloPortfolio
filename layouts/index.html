@@ -1,8 +1,12 @@
 {{ define "main" }}
-<div class="paolo-blue-bg text-white">
-    <section class="pt-24 pb-0 px-7">
-        <h1 class="text-white text-8xl md:text-[180px]">Paolo <img class="h-20 md:h-36 inline-block mb-4 md:mb-8 mix-blend-luminosity" src="img/paolo.webp" alt=""> Bicchieri</h1>
-        <h3 class="text-white text-3xl md:text-5xl w-full md:w-4/5">is a writer living on the coast. He’s also worked at nonprofits, restaurants, and bars <span class="text-black">from McDonald’s to Tartine</span>, rebuilt homes in New Orleans, and led a volunteer training for Lemony Snicket</h3>
+<div id="moveInAnimation" class="paolo-blue-bg text-white">
+    <section class="pt-24 pb-0 px-7 relative">
+        <h1 class="text-white text-8xl md:text-[180px]">Paolo <img class="h-20 md:h-36 inline-block mb-4 md:mb-8 mix-blend-luminosity rounded-md" src="img/paolo.webp" alt=""> Bicchieri</h1>
+        <h3 class="text-white text-3xl md:text-5xl w-full md:w-4/5">is a writer living on the coast. He’s also worked at nonprofits, restaurants, and bars <span class="text-slate-950">from McDonald’s to Tartine</span>, rebuilt homes in New Orleans, and led a volunteer training for Lemony Snicket</h3>
+    
+        <div href="" id="listen" title="instagram" class="p-2 mt-4 md:mt-0 md:absolute right-48 bottom-4">
+            <div class="text-5xl">🔊</div>
+        </div>
     </section>
     
     <section class="px-7 py-16 flex flex-col md:flex-row w-full">
@@ -45,13 +49,13 @@
     </section>
 
     <section class="px-7 py-16">
-        <h2 class="text-white text-5xl md:text-6xl max-w-screen-lg">“My poetry, journalism, and speaking centers and celebrates <span class="text-black">counter narration</span>. The telling of Stories that represent minority viewpoints, often in the realm of 
+        <h2 class="text-white text-5xl md:text-6xl max-w-screen-lg">“My poetry, journalism, and speaking centers and celebrates <span class="text-slate-950">counter narration</span>. The telling of Stories that represent minority viewpoints, often in the realm of 
             <ul class="mt-4">
-                <li>✎ <span class="underline">labor models</span></li>
-                <li>✎ <span class="underline">agriculture</span></li>
-                <li>✎ <span class="underline">immigrant stories</span></li>
-                <li>✎ <span class="underline">plant-based foods</span></li>
-                <li>✎ <span class="underline">coffee</span></li>
+                <li>✎ <span>labor models</span></li>
+                <li>✎ <span>agriculture</span></li>
+                <li>✎ <span>immigrant stories</span></li>
+                <li>✎ <span>plant-based foods</span></li>
+                <li>✎ <span>coffee</span></li>
             </ul>
     </section>
 
@@ -60,35 +64,35 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue">
 
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">Eater SF</div>
+            <a target="_blank" href="" class="article button ">
+                <div class="text-xl">Eater SF</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">A New Taco Stand is Bringing Indigenous Flavors to the Outer Sunset</div>
             </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 md:col-span-2">
-                <div class="text-2lg">BrokeAss Stuart</div>
+            <a target="_blank" href="" class="article button ">
+                <div class="text-xl">BrokeAss Stuart</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
                 </div>
             </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 md:col-span-2">
-                <div class="text-2lg">BrokeAss Stuart</div>
+            <a target="_blank" href="" class="article button">
+                <div class="text-xl">BrokeAss Stuart</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
                 </div>
             </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">BrokeAss Stuart</div>
+            <a target="_blank" href="" class="article button md:col-span-2">
+                <div class="text-xl">BrokeAss Stuart</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
                 </div>
             </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">Eater SF</div>
+            <a target="_blank" href="" class="article button ">
+                <div class="text-xl">Eater SF</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming</div>
             </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 ">
-                <div class="text-2lg">BrokeAss Stuart</div>
+            <a target="_blank" href="" class="article button">
+                <div class="text-xl">BrokeAss Stuart</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">HOW COVID KICKSTARTED NEW SAN FRANCISCO CHRISTMAS TRADITIONS</div>
             </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 ">
-                <div class="text-2lg">BrokeAss Stuart</div>
+            <a target="_blank" href="" class="article button md:col-span-2">
+                <div class="text-xl">BrokeAss Stuart</div>
                 <div class="leading-tight text-2xl md:text-3xl uppercase">HOW COVID KICKSTARTED NEW SAN FRANCISCO CHRISTMAS TRADITIONS</div>
             </a>
         </div>
@@ -114,7 +118,7 @@
             </div>
         </div>
         <div class="flex flex-row justify-center w-full">
-            <button class="mt-12 bg-white text-paolo-blue text-2xl md:text-3xl py-4 px-16 rounded-full"><a href="/work" target="_blank" rel="noopener noreferrer"> More Writing</a></button>
+            <button class="button mt-12 bg-white text-paolo-blue text-2xl md:text-3xl py-4 px-16 rounded-full"><a href="/work" rel="noopener noreferrer"> More Writing</a></button>
         </div>
     </section>
 
