@@ -1,3 +1,6 @@
 baseURL = 'https://www.paolobicchieri.com/'
 languageCode = 'en-us'
-title = 'Paolo Bicchieri'
+title = 'Paolo Bicchieri Portfolio'
+enableRobotsTXT = true
+[params]
+  Description = "Paolo Bicchieri is a writer living on the coast."
