@@ -1,4 +1,4 @@
-baseURL = 'https://www.paolobicchieri.com/'
+baseURL = 'https://www.paolobicchieri.com'
 languageCode = 'en-us'
 title = 'Paolo Bicchieri Portfolio'
 enableRobotsTXT = true
