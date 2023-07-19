@@ -8,54 +8,54 @@
     content="width=device-width, initial-scale=1.0"
   />
 
-  <meta
-    name="description"
-    content=""
-  />
+  
+  <title>Paolo Bicchieri - Writer</title>
+  <meta name="title" content="Paolo Bicchieri - Writer" />
+  <meta name="description" content="Welcome to the portfolio site of writer, Paolo Bicchieri!" />
   <meta name="author" content="Anand Upender" />
+  <link rel="canonical" href="https://www.paolobicchieri.com/work/" />
 
-  <title>All Work</title>
+    
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.paolobicchieri.com/" />
+  <meta property="og:title" content="Paolo Bicchieri - Writer" />
+  <meta property="og:description" content="Welcome to the portfolio site of writer, Paolo Bicchieri!" />
+  <meta property="og:image" content="img/seo.jpg" />
 
-  <meta property="og:image" content="/img/share.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1024" />
-  <meta property="og:image:height" content="1024" />
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.paolobicchieri.com/" />
+  <meta property="twitter:title" content="Paolo Bicchieri - Writer" />
+  <meta property="twitter:description" content="Welcome to the portfolio site of writer, Paolo Bicchieri!" />
+  <meta property="twitter:image" content="img/seo.jpg" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <link rel="preload" href="/fonts/Aeroxys.ttf" as="font" type="font/opentype" crossorigin> 
-
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preload" href="/fonts/Gratelos.ttf" as="font" crossorigin> 
+  <link rel="preload" href="/fonts/Aeroxys.ttf" as="font" crossorigin> 
 
   
   <link
     rel="stylesheet"
-    href="/sass/main.fb72ee1da92871f2787da00914411445c907223e19ea13a8fc0877a7d57930c6.css"
-    integrity="sha256-&#43;3LuHakocfJ4faAJFEEURckHIj4Z6hOo/Ah3p9V5MMY="
+    href="/sass/main.7f29cc27a8c2abfabc90787418a333302900d01ed99161ef35c5c81ed81d9663.css"
+    integrity="sha256-fynMJ6jCq/q8kHh0GKMzMCkA0B7ZkWHvNcXIHtgdlmM="
     crossorigin="anonymous"
   />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
 
   
-  <link rel="manifest" href="/manifest.json" />
 
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SZKDVQZYG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-7SZKDVQZYG');
-  </script>
+  
 </head>
 
 
   <body id="body" class="m-w-full">
-    <nav>
-    <ul id="nav" class="flex flex-row w-full pt-4 justify-center text-white">
+    <nav id="nav" class="fixed w-full mix-blend-difference z-50">
+    <ul class="flex flex-row pt-4 justify-center text-white">
         <li class="mr-6 p-1">
             <a href="/index.html" class="text-xl">Home
             </a>
@@ -74,62 +74,267 @@
     <main id="content">
 <div class="paolo-blue-bg text-white">
     <section class="pt-24 pb-0 px-7">
-        <h1 class="text-white text-8xl md:text-[180px]">All Writing</h1>
+        <h1 class="text-white text-8xl md:text-[180px]">All Writing
+        </h1>
     </section>
 
     <section class="pt-2 pb-0 px-7">
         <h2 class="text-white text-4xl mb-4">Filter by</h2>
-        <div class="flex flex-row flex-wrap gap-2">
-            <div class="text-center bg-white text-paolo-blue inline-block text-2xl md:text-3xl py-2 px-4 rounded-full md:mr-8">Poetry</div>
-            <div class="text-center bg-white text-paolo-blue inline-block text-2xl md:text-3xl py-2 px-4 rounded-full md:mr-8">Journalism</div>
-            <div class="text-center bg-white text-paolo-blue inline-block text-2xl md:text-3xl py-2 px-4 rounded-full md:mr-8">Published Books</div>
-        </div>
+         <form name="writing-type" class="flex flex-row flex-wrap gap-4">
+            <input name="type" type="radio" id="all" value="all" checked="checked">
+            <label for="all" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                All
+            </label>
+
+            <input name="type" type="radio" id="journalism" value="journalism">
+            <label for="journalism" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Journalism
+            </label>
+
+            <input name="type" type="radio" id="poetry" value="poetry">
+            <label for="poetry" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Poetry
+            </label>
+
+            <input name="type" type="radio" id="books" value="books">
+            <label for="books" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Books
+            </label>
+        </form>
     </section>
 
     <section class="pt-16 pb-0 px-7 pb-32">
-        <div class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue">
+        
+        <div id="all-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue">
+            
+                
 
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">Eater SF</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">A New Taco Stand is Bringing Indigenous Flavors to the Outer Sunset</div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 md:col-span-2">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
-                </div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 md:col-span-2">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
-                </div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
-                </div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
-                <div class="text-2lg">Eater SF</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming</div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 ">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">HOW COVID KICKSTARTED NEW SAN FRANCISCO CHRISTMAS TRADITIONS</div>
-            </a>
-            <a target="_blank" href="" class="button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8 ">
-                <div class="text-2lg">BrokeAss Stuart</div>
-                <div class="leading-tight text-2xl md:text-3xl uppercase">HOW COVID KICKSTARTED NEW SAN FRANCISCO CHRISTMAS TRADITIONS</div>
-            </a>
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">book 1</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">book 1</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">book 1</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">book 1</div>
+        </a>    
+
+
+            
+                
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">eaterSF</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtest</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">eaterSF</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtest</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+
+            
+                
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">poetry 1</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtest</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">Poetry 2</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+
+            
         </div>
+
+        
+        <div id="journalism-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue"  style="display:none">
+            
+                
+            
+                
+                     
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">eaterSF</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtest</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">eaterSF</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtest</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">My Friend</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+
+                
+            
+                
+            
+        </div>
+
+        <div id="poetry-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue" style="display:none">
+            
+                
+            
+                
+            
+                
+                    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">poetry 1</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtest</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">Poetry 2</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">testtestw</div>
+        </a>    
+
+
+                
+            
+        </div>
+
+        <div id="book-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue" style="display:none">
+            
+                
+                    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">book 1</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">book 1</div>
+        </a>    
+
+        <a target="_blank" href="https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release" class="article button bg-white text-xl p-6 rounded-lg flex-1 mb-6 md:mr-8">
+            <div class="text-2lg">book 1</div>
+            <div class="leading-tight text-2xl md:text-3xl uppercase">book 1</div>
+        </a>    
+
+
+                
+            
+                
+            
+                
+            
+        </div>
+         
     </section>
-    
 </div>
+
+<script>
+    var radios = document.forms["writing-type"].elements["type"];
+    for(var i = 0, max = radios.length; i < max; i++) {
+        radios[i].onclick = function() {
+            if(this.value == "all"){
+                document.querySelector("#all-content").style.display = "grid";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "none";
+            }else if(this.value == "journalism"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "grid";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "none";            
+            
+            }else if(this.value == "poetry"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "grid";
+                document.querySelector("#book-content").style.display = "none";            
+            }
+            else if(this.value == "books"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "grid";            
+            }
+        }
+    }
+</script>
 </main>
 
     
 
 <div class="absolute left-0 w-full paolo-blue-bg text-white px-7 py-8">
-    <h1 class="text-white text-8xl md:text-[180px] sp-font my-0">thanks for coming by</h1>
+    <h1 id="grow-animation" class="text-white text-8xl md:text-[180px] sp-font my-0 mb-8">
+        <div class="grow-1">thanks</div> <div class="grow-2">for</div> <div class="grow-3">coming</div> <div class="grow-4">by</div>
+    </h1>
 
     <div class="flex flex-row justify-left">    
         <div class="text-3xl pr-8">
@@ -171,5 +376,7 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/lax.js"></script>
+    <script src="/js/lax-implementation.js"></script>
   </body>
 </html>
