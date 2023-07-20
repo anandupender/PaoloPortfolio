@@ -1,17 +1,18 @@
 type: books
 all:
   item:
-    source: 
-    name: Familial Animals
-    url: https://animalheartpress.net/familial-animals/ 
+    source: Book
+    name: "Familial Animals"
+    url: "https://animalheartpress.net/familial-animals/"
   item2:
-    source: 
-    name: Sword in the Darkness
-    url: https://wipfandstock.com/9781725251618/sword-in-the-darkness/
+    source: Book
+    name: "Sword in the Darkness"
+    url: "https://wipfandstock.com/9781725251618/sword-in-the-darkness/"
   item3:
-    source: 
-    name: Eight Gods: Green Dragons
+    source: Book
+    name: "Eight Gods: Green Dragons"
+    url:
   item4:
-    source: 
-    name: Judas: America Bound
-    url: https://www.powells.com/book/judas-9781951384128
+    source: Book 
+    name: "Judas: America Bound"
+    url: "https://www.powells.com/book/judas-9781951384128"
