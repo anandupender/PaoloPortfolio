@@ -1,10 +1,10 @@
 type: poetry
 all:
   item:
-    source: poetry 1
-    name: testtest
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+    source: Ghost City Press
+    name: I watched the elephant seals get born
+    url: https://ghostcitypress.com/poetry-28/2020/10/17/paolo-bicchieri 
   item2:
-    source: Poetry 2
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: The Racket
+    name: Yakima Canyon
+    url: https://theracketsf.com/home/listen/paolobicchieri
