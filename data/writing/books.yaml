@@ -1,10 +1,17 @@
 type: books
 all:
   item:
-    source: book 1
-    name: book 1
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+    source: 
+    name: Familial Animals
+    url: https://animalheartpress.net/familial-animals/ 
   item2:
-    source: book 1
-    name: book 1
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: 
+    name: Sword in the Darkness
+    url: https://wipfandstock.com/9781725251618/sword-in-the-darkness/
+  item3:
+    source: 
+    name: Eight Gods: Green Dragons
+  item4:
+    source: 
+    name: Judas: America Bound
+    url: https://www.powells.com/book/judas-9781951384128
