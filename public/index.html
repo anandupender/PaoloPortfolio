@@ -39,8 +39,8 @@
   
   <link
     rel="stylesheet"
-    href="/sass/main.7f29cc27a8c2abfabc90787418a333302900d01ed99161ef35c5c81ed81d9663.css"
-    integrity="sha256-fynMJ6jCq/q8kHh0GKMzMCkA0B7ZkWHvNcXIHtgdlmM="
+    href="/sass/main.9f8cf06b531ae0f749ad31febeee92c830d971b4fd1c1f16b47d8bf2fdcd3cea.css"
+    integrity="sha256-n4zwa1Ma4PdJrTH&#43;vu6SyDDZcbT9HB8WtH2L8v3NPOo="
     crossorigin="anonymous"
   />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -74,7 +74,7 @@
     <main id="content">
 <div id="moveInAnimation" class="paolo-blue-bg text-white">
     <section class="pt-48 pb-0 px-7 relative">
-        <h1 class="text-white text-8xl md:text-[180px] lax-left-right">Paolo <img class="h-20 md:h-36 inline-block mb-4 md:mb-8 mix-blend-luminosity rounded-md" src="img/paolo.webp" alt=""> Bicchieri</h1>
+        <h1 class="text-white text-8xl md:text-[180px]">Paolo <img class="h-20 md:h-36 inline-block mb-4 md:mb-8 rounded-md" src="img/paolo.webp" alt=""> Bicchieri</h1>
         <h3 class="text-white text-3xl md:text-4xl w-full md:w-4/5">is a writer living on the coast. He’s also worked with education nonprofits and farmworker unions, interviewed coffee growers and rappers, and worked the line at bars and restaurants <span class="text-slate-950">from McDonald’s to Tartine.</span></h3>
 
     </section>
@@ -149,7 +149,7 @@
                 <li class="text-4xl md:text-5xl"><img class="h-8 inline-block lax-rotate-4" src="/img/pencil.svg" alt="" srcset=""> <span>plant-based foods</span></li>
                 <li class="text-4xl md:text-5xl"><img class="h-8 inline-block lax-rotate-5" src="/img/pencil.svg" alt="" srcset=""> <span>coffee</span></li>
             </ul>
-            <button class="button mt-36 md:mr-36" onclick="randomArticle">
+            <button class="button mt-36 md:mr-36 rotate3d" onclick="randomArticle()">
                 <img class="w-36" src="img/die.png" alt="" srcset="">
             </button>
         </div>
@@ -220,9 +220,16 @@
 
         
     </section>
-
-
 </div>
+
+<script>
+    function randomArticle(){
+        var articles = ["https://www.kqed.org/arts/13900187/molcaxitl-kitchen-taco-stand-outer-sunset-indigenous-mexican-food", "https://brokeassstuart.com/2023/05/29/san-francisco-gay-mens-chorus-concert/", "https://brokeassstuart.com/2023/07/10/writing-poetry-events-bay-area-san-francisco/", "https://sf.eater.com/2023/3/7/23627631/korean-restaurants-san-francisco-bibimbar-matko-korner-store", "https://www.apartmenttherapy.com/queer-dinner-party-37177142", "https://sf.eater.com/2022/7/14/23207262/san-francisco-tenderloin-best-coffee-yemeni-mokhtar-alkhanshali", "https://sf.eater.com/23753360/diner-coffee-commodity-robusta-history"];
+        
+        var randomNum = Math.floor(Math.random() * (articles.length - 1));
+        window.open(articles[randomNum], '_blank');
+    }
+</script>
 </main>
 
     
