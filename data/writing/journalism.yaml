@@ -1,38 +1,38 @@
 type: journalism
 all:
   item:
-    source: eaterSF
-    name: testtest
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
+    source: Eater SF
+    name: This Iconic Late-Night Diner Has Nourished San Francisco’s Queer Community for Generations
+    url: https://sf.eater.com/2023/1/24/23567937/grubstake-diner-san-francisco-queer-history 
   item2:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: What Happened to the Dandelion Chocolate Union?
+    url: https://sf.eater.com/2022/8/11/23300654/dandelion-chocolate-union-san-francisco
   item3:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: Oakland’s Buzziest Baker Wants Diners to Ask Harder Questions About the Food They Eat
+    url: https://sf.eater.com/2022/8/29/23327644/big-dill-kitchen-oakland
   item4:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: How The Chef Behind This Vegan East Bay Pop-Up Celebrates Her Palestinian American Identity
+    url: https://sf.eater.com/2022/3/31/23004773/mismish-pop-up-berkeley-palestinian-american-food
   item6:
-    source: eaterSF
+    source: Eater SF
     name: testtest
     url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
   item5:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: A Decade in, the Bayview Still Finds Hope in This Nonprofit Cafe and Supper Club
+    url: https://sf.eater.com/2023/3/2/23622161/old-skool-cafe-bayview
   item7:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: In 2023, San Francisco Coffee Shops Want You to Get the Hell Out
+    url: https://sf.eater.com/2023/4/21/23693337/cafe-coffee-culture-san-francisco-trend
   item8:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: Fine Dining Nonalcoholic Beverage Pairings in the Bay Area Are Luxurious As Hell
+    url: https://sf.eater.com/2023/3/13/23638092/nonalcoholic-beverges-cocktails-fine-dining
   item9:
-    source: My Friend 
-    name: testtestw
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-release
+    source: Eater SF 
+    name: After Three Decades, This West Side Restaurant Remains a One-of-a-Kind Haven for Halal Chinese Food
+    url: https://sf.eater.com/2023/3/22/23650553/old-mandarin-islamic-restaurant-halal-chinese
