@@ -92,8 +92,11 @@ input[type="radio"]:checked + label {
   background-position-y: 0.4em;
   background-image: url("/img/dots-blue.svg"); }
 
+button, .button {
+  transition: transform ease 200ms; }
+
 button:hover, .button:hover {
-  transform: scale(1.1); }
+  transform: scale(1.05); }
 
 a.button {
   text-decoration: none !important; }

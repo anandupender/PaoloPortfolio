@@ -109,8 +109,12 @@ input[type="radio"]:checked + label{
 
 // HOVER STATES
 
+button, .button{
+    transition: transform ease 200ms;
+}
+
 button:hover, .button:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 a.button{
