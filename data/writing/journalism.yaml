@@ -16,10 +16,6 @@ all:
     source: Eater SF 
     name: How The Chef Behind This Vegan East Bay Pop-Up Celebrates Her Palestinian American Identity
     url: https://sf.eater.com/2022/3/31/23004773/mismish-pop-up-berkeley-palestinian-american-food
-  item6:
-    source: Eater SF
-    name: testtest
-    url: https://sf.eater.com/2022/2/10/22927771/sf-beer-week-202-best-events-beer-releases 
   item5:
     source: Eater SF 
     name: A Decade in, the Bayview Still Finds Hope in This Nonprofit Cafe and Supper Club
