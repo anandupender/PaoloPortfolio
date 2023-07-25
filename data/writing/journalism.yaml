@@ -32,3 +32,15 @@ all:
     source: Eater SF 
     name: After Three Decades, This West Side Restaurant Remains a One-of-a-Kind Haven for Halal Chinese Food
     url: https://sf.eater.com/2023/3/22/23650553/old-mandarin-islamic-restaurant-halal-chinese
+  item10:
+    source: SF Weekly 
+    name: Interviewed on Parklets, Bars & Clubs, Best Music of 2021 podcast
+    url: https://soundcloud.com/sfweeklypodcast/parklets-bars-clubs-best-music-of-2021
+  item11:
+    source: Apartment Therapy 
+    name: How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming
+    url: https://www.apartmenttherapy.com/queer-dinner-party-37177142
+  item12:
+    source: Apartment Therapy 
+    name: How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming
+    url: https://www.apartmenttherapy.com/queer-dinner-party-37177142
