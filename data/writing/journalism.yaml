@@ -96,3 +96,179 @@ all:
     source: Evil Geniuses 
     name: Of Fire, Earth, Water, and Air
     url: https://www.factor.gg/article/of-fire-earth-water-and-air-dragon-spawn-analysis
+  item24:
+    source: Evil Geniuses 
+    name: Clash of the TSM Titans
+    url: https://www.factor.gg/article/clash-of-the-tsm-titans-poe-v-bjergsen-factor
+  item25:
+    source: Evil Geniuses 
+    name: Enjoying the Perkz
+    url: https://www.factor.gg/article/enjoying-the-perkz-from-eu-to-na-factor
+  item26:
+    source: Evil Geniuses 
+    name: Top 5 Supports in LCK 2020 to 2021 
+    url: https://www.factor.gg/article/koreas-finest-shields-the-lcks-top-5-supports-2020-to-2021
+  item27:
+    source: Evil Geniuses 
+    name: The Top 10 Players in the LCK 2020 to 2021 
+    url: https://www.factor.gg/article/the-top-10-players-in-the-lck-2020-to-2021
+  item27:
+    source: Evil Geniuses 
+    name: The Top 10 Players in the LEC 2020 to 2021 
+    url: https://www.factor.gg/article/the-top-10-players-in-the-lec-2020-to-2021
+  item28:
+    source: Evil Geniuses 
+    name: The Top 10 Players in the LCS 2020 to 2021 
+    url: https://www.factor.gg/article/the-top-10-players-in-the-lcs-2020-to-2021
+  item29:
+    source: Evil Geniuses 
+    name: Aim For the King, Don’t Miss 
+    url: https://www.factor.gg/article/aim-for-the-king-dont-miss-tryndamere
+  item30:
+    source: Palo Alto Online 
+    name: Farm to latte 
+    url: https://www.paloaltoonline.com/print/story/2021/10/08/farm-to-latte
+  item30:
+    source: San Francisco Examiner 
+    name: David Miles Jr., the ‘Godfather of Skate,’ brings a new mural to Golden Gate Park 
+    url: https://www.sfexaminer.com/culture/david-miles-jr-the-godfather-of-skate-brings-a-new-mural-to-golden-gate-park/article_e48f157a-782b-51cf-b81f-60dba26c42b8.html
+  item31:
+    source: San Francisco Examiner 
+    name: What pricey plates say about pandemic-era S.F. restaurants 
+    url: https://www.sfexaminer.com/culture/what-pricey-plates-say-about-pandemic-era-s-f-restaurants/article_958a11b1-f05e-5ac9-adae-63a761dec8ad.html
+  item32:
+    source: San Francisco Examiner 
+    name: Joyride Pizza schools SF in the Detroit slice 
+    url: https://www.sfexaminer.com/culture/joyride-pizza-schools-sf-in-the-detroit-slice/article_ce887eea-ec37-5b5c-8e76-bb282241b24d.html
+  item33:
+    source: San Francisco Examiner 
+    name: The spirit of San Francisco is alive and well in Molly Welton’s mobile cafe 
+    url: https://www.sfexaminer.com/culture/the-spirit-of-san-francisco-is-alive-and-well-in-molly-welton-s-mobile-cafe/article_f3ebedee-f1dc-5b3c-b468-943d2086f0c2.html
+  item34:
+    source: San Francisco Examiner 
+    name: Tenderloin nightlife singing again 
+    url: https://www.sfexaminer.com/culture/tenderloin-nightlife-singing-again/article_1740e46e-343a-5eac-bae5-b5d17d7ef8cf.html
+  item35:
+    source: San Francisco Examiner 
+    name: Outside Lands is for food lovers 
+    url: https://www.sfexaminer.com/culture/outside-lands-is-for-food-lovers/article_50193fb8-fe1f-5e58-a3ab-966c989b9434.html
+  item36:
+    source: San Francisco Examiner 
+    name: Has the San Francisco bagel arrived? 
+    url: https://www.sfexaminer.com/culture/has-the-san-francisco-bagel-arrived/article_7aca3db8-f1ae-5c2e-8dd5-675a86ccd91f.html
+  item37:
+    source: The 650 
+    name: Two Silicon Valley transplants disrupt the coffee industry from their kitchen table 
+    url: https://www.thesixfifty.com/transparent-coffee-two-silicon-valley-transplants-disrupt-the-industry-from-their-kitchen-table%e2%80%8b-8912/
+  item38:
+    source: The 650 
+    name: Brown Girl Surf brings a splash of color to Pacifica beaches 
+    url: https://www.thesixfifty.com/the-new-wave-brown-girl-surf-brings-a-splash-of-color-to-pacifica-beaches-8902/
+  item39:
+    source: Street Sheet 
+    name: Who holds the key to housing? Project Homekey enters next phase 
+    url: https://thestreetspirit.org/2021/09/06/who-holds-the-key-to-housing-cas-project-homekey-enters-next-phase/
+  item40:
+    source: Globus Journal 
+    name: At a Cooperative in Chilón, Mexico, Selling Honey Isn’t Just Tradition – It’s a Way Out of Poverty 
+    url: https://usfblogs.usfca.edu/globus/2022/01/01/chilon-mexico-selling-honey-out-of-poverty/
+  item41:
+    source: Globus Journal 
+    name: The Tartine Union Drive of 2020 
+    url: https://usfblogs.usfca.edu/globus/2021/01/01/a-woman-a-union-and-a-bakery-the-tartine-drive-of-2020/
+  item42:
+    source: Foghorn 
+    name: Diversity chief Wardell-Ghirarduzzi to leave USF, return to alma mater 
+    url: https://sffoghorn.com/diversity-chief-wardell-ghirarduzzi-to-leave-usf-return-to-alma-mater/
+  item43:
+    source: Foghorn 
+    name: Debriefing the Iosefo presidency 
+    url: https://sffoghorn.com/debriefing-iosefos-presidency/
+  item44:
+    source: Foghorn 
+    name: University expels unidentified student for hanging noose on campus 
+    url: https://sffoghorn.com/university-expels-unidentified-student-for-hanging-noose-on-campus/
+  item45:
+    source: Foghorn 
+    name: Garrett-Walker bids adieu to the Hilltop 
+    url: https://sffoghorn.com/garrett-walker-bids-adieu-to-the-hilltop/
+  item46:
+    source: Foghorn 
+    name: San Francisco Poet Laureate Tongo Eisen-Martin brings revolution to forefront 
+    url: https://sffoghorn.com/san-francisco-poet-laureate-tongo-eisen-martin-brings-revolution-to-forefront/
+  item46:
+    source: SF Weekly 
+    name: Abanico Coffee Roasters Serves Unique Drinks 
+    url: https://www.sfweekly.com/dining/abanico-coffee-roasters-serves-unique-drinks/article_30dde2d0-0d44-5699-a6a6-621e1ca93399.html
+  item47:
+    source: SF Weekly 
+    name: Asian American Cafe Owners Reflect on a Hard Year 
+    url: https://www.sfweekly.com/dining/asian-american-cafe-owners-reflect-on-a-hard-year/article_0bd6a08f-78b4-5b0f-ac8c-1d5fdfa2f119.html
+  item48:
+    source: SF Weekly 
+    name: Chai, a Hotly Contested Beverage 
+    url: https://www.sfweekly.com/dining/chai-a-hotly-contested-beverage/article_09308876-bf58-54a9-8345-6e606d46792d.html
+  item49:
+    source: SF Weekly 
+    name: Nomadic Journeys for Social Justice 
+    url: https://www.sfweekly.com/dining/nomadic-journeys-for-social-justice/article_879d583e-0962-59bb-938d-7ee87ec69472.html
+  item50:
+    source: SF Weekly 
+    name: As Nice as Niche Gets 
+    url: https://www.sfweekly.com/dining/as-nice-as-niche-gets/article_4c75c781-47a8-535a-816e-b6d8dc40556c.html
+  item51:
+    source: SF Weekly 
+    name: Dandelion Chocolate Employees Launch Unionization Drive 
+    url: https://www.sfweekly.com/archives/dandelion-chocolate-employees-launch-unionization-drive/article_277da520-7664-5cb4-96f9-6edf8e05b835.html
+  item51:
+    source: SF Weekly 
+    name: Who’s Ready for Indoor Dining? 
+    url: https://www.sfweekly.com/dining/who-s-ready-for-indoor-dining/article_a7001aed-7a63-5302-9ce1-f83920b1fba7.html
+  item52:
+    source: SF Weekly 
+    name: Outdoor Dining not Enough for Service Industry
+    url: https://www.sfweekly.com/dining/outdoor-dining-not-enough-for-service-industry/article_390e132b-12aa-56d4-9cd7-4c57b2f8b0ba.html
+  item53:
+    source: SF Weekly 
+    name: Brother Bear, For Love & Honey
+    url: https://www.sfweekly.com/dining/brother-bear-for-love-honey/
+  item54:
+    source: SF Weekly 
+    name: Waiting Tables in a Pandemic
+    url: https://www.sfweekly.com/dining/at-your-service-waiting-tables-in-a-pandemic/article_3639fce8-d35c-532c-906b-61da18107404.html
+  item55:
+    source: Sunset Beacon 
+    name: Hometown Creamery Keeps the Scoops Coming During Pandemic
+    url: https://sfrichmondreview.com/2020/10/08/san-franciscos-hometown-creamery-keeps-the-scoops-coming-during-pandemic/
+  item56:
+    source: Sunset Beacon 
+    name: Andytown Coffee and Its Customers Pitch in to Support, Thank Healthcare Workers
+    url: https://sfrichmondreview.com/2020/04/03/andytown-coffee-and-its-customers-pitch-in-to-support-thank-healthcare-workers/
+  item57:
+    source: Sunset Beacon 
+    name: Yo Tambien Cantina Delights as a Pleasant Inner Sunset Oasis on Hugo Street
+    url: https://sfrichmondreview.com/2020/02/10/yo-tambien-cantina-delights-as-a-pleasant-inner-sunset-oasis-on-hugo-street/
+  item58:
+    source: Sunset Beacon 
+    name: Queens Shares Korean Cuisine, Culture in the Sunset
+    url: https://sfrichmondreview.com/2019/12/07/queens-shares-korean-cuisine-culture-in-the-sunset/
+  item59:
+    source: Sunset Beacon 
+    name: Craftsman Sustains Irving Street Shop’s Historic Shoe Repair Role
+    url: https://sfrichmondreview.com/2019/09/02/craftsman-sustains-irving-street-shops-historic-shoe-repair-role/
+  item60:
+    source: Sunset Beacon 
+    name: Newest Tartine Bakery Location Opens in the Inner Sunset District
+    url: https://sfrichmondreview.com/2019/08/04/tartine-bakerys-newest-location-opens-in-the-inner-sunset-district/
+  item61:
+    source: Sunset Beacon 
+    name: The Last Straw Still Going Strong at 44
+    url: https://sfrichmondreview.com/2019/10/07/the-last-straw-still-going-strong-at-44/
+  item62:
+    source: Sprudge 
+    name: Riffing On Coffee At Ghost Note In Seattle
+    url: https://sprudge.com/riffing-on-coffee-at-ghost-note-in-seattle-133861.html
+  item62:
+    source: Lynden Tribune 
+    name: 30 years of OutdoorsNW, with some Lynden credit
+    url: https://www.lyndentribune.com/sports/years-of-outdoorsnw-with-some-lynden-credit/article_a102a100-2709-11e8-8051-5b1a7e558381.html
