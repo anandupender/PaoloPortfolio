@@ -41,6 +41,58 @@ all:
     name: How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming
     url: https://www.apartmenttherapy.com/queer-dinner-party-37177142
   item12:
-    source: Apartment Therapy 
-    name: How Hosting a Chaotic, Queer Dinner Party Can Be So Affirming
-    url: https://www.apartmenttherapy.com/queer-dinner-party-37177142
+    source: Mahalaya 
+    name: Meet the man behind one of Los Angeles’ most iconic Filipino American cafes
+    url: https://www.mahalayasf.org/post/meet-the-man-behind-one-of-los-angeles-most-iconic-filipino-american-cafes
+  item13:
+    source: Mahalaya 
+    name: How Kalesa Coffee Brings Filipino Flavors to the Front While Building Bridges For Self-Discovery
+    url: https://www.mahalayasf.org/post/how-kalesa-coffee-brings-filipino-flavors-to-the-front-while-building-bridges-for-self-discovery
+  item14:
+    source: The Frisc 
+    name: SF Comic-Book Store Owner Says We Need Local Heroes to Get Back on Track
+    url: https://thefrisc.com/sf-comic-book-store-owner-says-we-need-local-heroes-to-get-back-on-track-ce8a2d5fb806
+  item15:
+    source: The San Francisco Standard 
+    name: SF Chefs Think Outside the Bun With Plant-Based Protein Dishes
+    url: https://sfstandard.com/2021/12/01/sf-chefs-plant-based-protein/
+  item16:
+    source: KQED 
+    name: A New Taco Stand Is Bringing Indigenous Flavors to the Outer Sunset
+    url: https://www.kqed.org/arts/13900187/molcaxitl-kitchen-taco-stand-outer-sunset-indigenous-mexican-food
+  item17:
+    source: KQED 
+    name: With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
+    url: https://www.kqed.org/arts/13899379/milk-sf-ground-control-coffee-batch-brewer
+  item17:
+    source: Evil Geniuses 
+    name: The Felling of a Top Lane Tree
+    url: https://www.factor.gg/article/the-felling-of-a-top-lane-tree-maokai-champion-rework
+  item18:
+    source: Evil Geniuses 
+    name: Not Just This Or That
+    url: https://www.factor.gg/article/not-just-this-or-that-blue-vs-red-side-analysis
+  item19:
+    source: Evil Geniuses 
+    name: Doublelift Career Retrospective
+    url: https://www.factor.gg/article/sharpshooting-since-season-one-doublelift-a-career-retrospective
+  item20:
+    source: Evil Geniuses 
+    name: 2021 Worlds Metaverse
+    url: https://www.factor.gg/article/2021-worlds-metaverse
+  item21:
+    source: Evil Geniuses 
+    name: Kaizen Derrick Asiedu Roared in the LCS
+    url: https://www.factor.gg/article/confidence-and-plants-kaizen-derrick-asiedu-roared-in-the-lcs
+  item22:
+    source: Evil Geniuses 
+    name: The MAD Lions and the strength of the LEC
+    url: https://www.factor.gg/article/the-mad-lions-and-the-strength-of-the-lec
+  item22:
+    source: Evil Geniuses 
+    name: From Gargoyle to Superhero
+    url: https://www.factor.gg/article/from-gargoyle-to-superhero-galio-as-a-pro-pick-champion-rework
+  item23:
+    source: Evil Geniuses 
+    name: Of Fire, Earth, Water, and Air
+    url: https://www.factor.gg/article/of-fire-earth-water-and-air-dragon-spawn-analysis
