@@ -27,6 +27,11 @@
             <label for="books" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
                 Books
             </label>
+
+            <input name="type" type="radio" id="shortstories" value="shortstories">
+            <label for="shortstories" class="text-center text-white border border-2 border-white inline-block text-2xl md:text-3xl py-2 px-4 rounded-full">
+                Short Stories
+            </label>
         </form>
     </section>
 
@@ -38,7 +43,6 @@
             {{ end }}
         </div>
 
-        <!-- JOURNALISM -->
         <div id="journalism-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue"  style="display:none">
             {{ range $.Site.Data.writing }}
                 {{ if eq .type "journalism" }}
@@ -62,6 +66,14 @@
                 {{ end }}
             {{ end }}
         </div>
+
+        <div id="shortstory-content" class="grid grid-cols-1 md:grid-cols-3 pt-2 justify-between text-paolo-blue" style="display:none">
+            {{ range $.Site.Data.writing }}
+                {{ if eq .type "shortstories" }}
+                    {{ partial "singlewriting.html" . }}
+                {{ end }}
+            {{ end }}
+        </div>
          
     </section>
 </div>
@@ -75,23 +87,34 @@
                 document.querySelector("#journalism-content").style.display = "none";
                 document.querySelector("#poetry-content").style.display = "none";
                 document.querySelector("#book-content").style.display = "none";
+                document.querySelector("#shortstory-content").style.display = "none";                      
             }else if(this.value == "journalism"){
                 document.querySelector("#all-content").style.display = "none";
                 document.querySelector("#journalism-content").style.display = "grid";
                 document.querySelector("#poetry-content").style.display = "none";
-                document.querySelector("#book-content").style.display = "none";            
-            
+                document.querySelector("#book-content").style.display = "none";  
+                document.querySelector("#shortstory-content").style.display = "none";                                
             }else if(this.value == "poetry"){
                 document.querySelector("#all-content").style.display = "none";
                 document.querySelector("#journalism-content").style.display = "none";
                 document.querySelector("#poetry-content").style.display = "grid";
-                document.querySelector("#book-content").style.display = "none";            
+                document.querySelector("#book-content").style.display = "none";     
+                document.querySelector("#shortstory-content").style.display = "none";                             
             }
             else if(this.value == "books"){
                 document.querySelector("#all-content").style.display = "none";
                 document.querySelector("#journalism-content").style.display = "none";
                 document.querySelector("#poetry-content").style.display = "none";
-                document.querySelector("#book-content").style.display = "grid";            
+                document.querySelector("#book-content").style.display = "grid";  
+                document.querySelector("#shortstory-content").style.display = "none";                      
+            }
+            else if(this.value == "shortstories"){
+                document.querySelector("#all-content").style.display = "none";
+                document.querySelector("#journalism-content").style.display = "none";
+                document.querySelector("#poetry-content").style.display = "none";
+                document.querySelector("#book-content").style.display = "none";      
+                document.querySelector("#shortstory-content").style.display = "grid";            
+      
             }
         }
     }

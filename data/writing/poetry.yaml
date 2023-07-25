@@ -1,102 +1,102 @@
 type: poetry
 all:
   item:
-    source: Ghost City Press
-    name: I watched the elephant seals get born
-    url: https://ghostcitypress.com/poetry-28/2020/10/17/paolo-bicchieri 
+    source: "Ghost City Press"
+    name: "I watched the elephant seals get born"
+    url: "https://ghostcitypress.com/poetry-28/2020/10/17/paolo-bicchieri"
   item2:
-    source: The Racket
-    name: Yakima Canyon
-    url: https://theracketsf.com/home/listen/paolobicchieri
+    source: "The Racket"
+    name: "Yakima Canyon"
+    url: "https://theracketsf.com/home/listen/paolobicchieri"
   item3:
-    source: The Racket
-    name: gun poem
-    url: https://theracketsf.com/home/theracketjournal58 
+    source: "The Racket"
+    name: "gun poem"
+    url: "https://theracketsf.com/home/theracketjournal58"
   item4:
-    source: Quiet Lightning
-    name: for 48 hours i get phone calls
-    url: https://quietlightning.org/sparkle-blink-110/
+    source: "Quiet Lightning"
+    name: "for 48 hours i get phone calls"
+    url: "https://quietlightning.org/sparkle-blink-110/"
   item5:
-    source: Street Sheet
-    name: Irving & 5th
-    url: http://www.streetsheet.org/irving-and-5th/
+    source: "Street Sheet"
+    name: "Irving & 5th"
+    url: "http://www.streetsheet.org/irving-and-5th/"
   item6:
-    source: The Racket
-    name: Yakima Canyon
-    url: https://theracketsf.com/home/listen/paolobicchieri
+    source: "The Racket"
+    name: "Yakima Canyon"
+    url: "https://theracketsf.com/home/listen/paolobicchieri"
   item7:
-    source: Quiet Lightning
-    name: "to be a gay" and "Crescent City 8:45 pm in July" 
-    url: https://youtu.be/WUywVsWgJnU
+    source: "Quiet Lightning"
+    name: "\"to be a gay\" and \"Crescent City 8:45 pm in July\""
+    url: "https://youtu.be/WUywVsWgJnU"
   item8:
-    source: Quiet Lightning
-    name: as minneapolis bleeds 
-    url: https://quietlightning.org/sparkle-blink/attachment/attachment-106/
+    source: "Quiet Lightning"
+    name: "as minneapolis bleeds" 
+    url: "https://quietlightning.org/sparkle-blink/attachment/attachment-106/"
   item9:
-    source: It's Lit ep. 119
-    name: as minneapolis bleeds  
-    url: https://www.mixcloud.com/anjoli-roy/ep-119-write-nowwriting-for-radical-futures-in-support-of-black-lives-cohosted-with-jocelyn-k-ng/
+    source: "It's Lit ep. 119"
+    name: "as minneapolis bleeds"
+    url: "https://www.mixcloud.com/anjoli-roy/ep-119-write-nowwriting-for-radical-futures-in-support-of-black-lives-cohosted-with-jocelyn-k-ng/"
   item10:
-    source: It's Lit ep. 116
-    name: One More for Pecos Bill  
-    url: https://www.mixcloud.com/anjoli-roy/ep-116-love-in-the-time-of-covid-19-2/
+    source: "It's Lit ep. 116"
+    name: "One More for Pecos Bill"
+    url: "https://www.mixcloud.com/anjoli-roy/ep-116-love-in-the-time-of-covid-19-2/"
   item11:
-    source: Nightbirds Vol. 4, 826 Valencia
-    name: Totally Wonderful  
+    source: "Nightbirds Vol. 4, 826 Valencia"
+    name: "Totally Wonderful"
     url:
   item12:
-    source: The Racket 
-    name: Irving & 5th  
+    source: "The Racket"
+    name: "Irving & 5th"
     url:
   item13:
-    source: Feral Heart Press 
-    name: the roadtrip where you become glass  
-    url: https://feraljournal.wordpress.com/the-roadtrip-where-you-become-glass-by-paolo-bicchieri/
+    source: "Feral Heart Press"
+    name: "the roadtrip where you become glass"
+    url: "https://feraljournal.wordpress.com/the-roadtrip-where-you-become-glass-by-paolo-bicchieri/"
   item14:
-    source: Forum 
-    name: Prepping  
-    url: https://forumccsf.org/2020/05/
+    source: "Forum"
+    name: "Prepping"
+    url: "https://forumccsf.org/2020/05/"
   item15:
-    source: Harpy Hybrid Review 
-    name: "at some rodeo," "when men tell me," and "Canine Estates"   
-    url: http://www.harpyhybridreview.org/issues/summer-2020/#
+    source: "Harpy Hybrid Review"
+    name: "\"at some rodeo,\" \"when men tell me,\" and \"Canine Estates\""
+    url: "http://www.harpyhybridreview.org/issues/summer-2020/#"
   item16:
-    source: The Racket 
-    name: Sheltered in place   
-    url: https://static1.squarespace.com/static/5b9aa9492971147fd206619e/t/5e9e23c9af2fdd272e0e6f9a/1587422202983/QUARANTINE+JOURNAL+NO.+3
+    source: "The Racket"
+    name: "Sheltered in place"
+    url: "https://static1.squarespace.com/static/5b9aa9492971147fd206619e/t/5e9e23c9af2fdd272e0e6f9a/1587422202983/QUARANTINE+JOURNAL+NO.+3"
   item17:
-    source: Headlight Review 
-    name: my mother's son   
+    source: "Headlight Review"
+    name: "my mother's son"
     url:
   item18:
-    source: Washington's Best Emerging Poets 2019: An Anthology 
-    name: "Built Fence" and "A Snake Song"   
+    source: "Washington's Best Emerging Poets 2019: An Anthology"
+    name: "\"Built Fence\" and \"A Snake Song\"" 
     url:
   item19:
-    source: Nomadic Press 
-    name: "I, Jurassic" winner of the 2019 Bindle Award  
-    url: https://www.nomadicpress.org/store/2019bindleawardwinnerpoetry
+    source: "Nomadic Press"
+    name: "\"I, Jurassic\" winner of the 2019 Bindle Award"
+    url: "https://www.nomadicpress.org/store/2019bindleawardwinnerpoetry"
   item20:
-    source: Bay Area Generations #66 
-    name: "I, Jurassic" published and performed  
+    source: "Bay Area Generations #66"
+    name: "\"I, Jurassic\" published and performed"
     url:
   item21:
-    source: Nightbirds Vol. 1,  826 Valencia 
-    name: Fret  
+    source: "Nightbirds Vol. 1,  826 Valencia"
+    name: "Fret"  
     url:
   item22:
-    source: Nightbirds Vol. 2,  826 Valencia 
-    name: Anderson  
+    source: "Nightbirds Vol. 2,  826 Valencia"
+    name: "Anderson"
     url:
   item23:
-    source: America's Emerging Poets 2018: Pacific Region 
-    name: Two Storms Storming   
+    source: "America's Emerging Poets 2018: Pacific Region"
+    name: "Two Storms Storming"
     url:
   item23:
-    source: Washington's Emerging Writers: An Anthology 
-    name: This Era   
+    source: "Washington's Emerging Writers: An Anthology"
+    name: "This Era"
     url:
   item24:
-    source: From Bellingham with Love 
-    name: Apples and Pigs   
+    source: "From Bellingham with Love"
+    name: "Apples and Pigs"
     url:

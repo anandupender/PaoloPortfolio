@@ -1,0 +1,14 @@
+type: shortstories
+all:
+  item:
+    source: Short Story
+    name: "PUT TITLE HERE"
+    url: "PUT URL HERE"
+  item2:
+    source: Short Story
+    name: "PUT TITLE HERE"
+    url: "PUT URL HERE"
+  item3:
+    source: Short Story
+    name: "PUT TITLE HERE"
+    url: "PUT URL HERE"
