@@ -32,3 +32,7 @@ all:
     source: "Bloomsday Literary Podcast"
     name: "Interview"
     url: https://www.bloomsdayliterary.com/podcast/2019/5/7/special-live-edition-awp2019-day-2
+  item9:
+    source: "Nightbirds Vol. 3, 826 Valencia"
+    name: "Comet"
+    url:
