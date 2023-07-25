@@ -25,7 +25,7 @@ all:
     name: "Stoves"
     url: "https://www.headwaylit.org/paolo-bicchieri"
   item7:
-    source: "(mac)ro\(mic)\"
+    source: "macromic"
     name: "Bedlam"
     url: "https://macromic.org/2018/08/06/bedlam/"
   item8:
