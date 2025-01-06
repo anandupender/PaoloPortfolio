@@ -94,7 +94,7 @@ all:
     url: https://www.kqed.org/arts/13962355/habibi-palestinian-ceramics-keffiyeh-reems-port-of-mokha-campbell
   item23:
     source: The Irish Times 
-    name: Leave inhibitions outside: Why Chinese coffee is having an It Girl moment
+    name: "Leave inhibitions outside: Why Chinese coffee is having an It Girl moment"
     url: https://www.irishtimes.com/food/2024/11/25/leave-your-inhibitions-outside-why-chinese-coffees-are-gaining-ground/
   item24:
     source: The Seattle Times 
@@ -118,11 +118,11 @@ all:
     url: https://sfstandard.com/2024/08/22/coffee-roasting-coops-san-francisco/
   item28:
     source: The San Francisco Standard 
-    name: Kitchen caffeinators: Where SF’s restaurant industry pros get their coffee fix 
+    name: "Kitchen caffeinators: Where SF’s restaurant industry pros get their coffee fix"
     url: https://sfstandard.com/2024/07/23/chefs-favorite-cafes/
   item29:
     source: The San Francisco Standard 
-    name: Gourmet coffee drinkers jolted by new trend in high-end java: It’s caffeine-free 
+    name: "Gourmet coffee drinkers jolted by new trend in high-end java: It’s caffeine-free"
     url: https://sfstandard.com/2024/07/15/decaf-coffee-is-finally-winning/
   item30:
     source: Palo Alto Online 
