@@ -65,65 +65,65 @@ all:
     name: With Its Fancy New Coffee Machine, Milk SF Wants to Help Revolutionize the Service Industry
     url: https://www.kqed.org/arts/13899379/milk-sf-ground-control-coffee-batch-brewer
   item17:
-    source: Evil Geniuses 
-    name: The Felling of a Top Lane Tree
-    url: https://www.factor.gg/article/the-felling-of-a-top-lane-tree-maokai-champion-rework
+    source: San Francisco Chronicle 
+    name: Burger sensation returns to the Bay Area with new restaurant
+    url: https://www.sfchronicle.com/food/restaurants/article/malibus-burgers-opening-oakland-19881240.php
   item18:
-    source: Evil Geniuses 
-    name: Not Just This Or That
-    url: https://www.factor.gg/article/not-just-this-or-that-blue-vs-red-side-analysis
+    source: Something Curated 
+    name: Where to Eat, Drink, and Sleep With Only 24 Hours in Seattle
+    url: https://somethingcurated.com/2024/10/01/seattle-restaurant-bar-hotel-guide-24-hours/
   item19:
-    source: Evil Geniuses 
-    name: Doublelift Career Retrospective
-    url: https://www.factor.gg/article/sharpshooting-since-season-one-doublelift-a-career-retrospective
+    source: Something Curated 
+    name: How to Spend 24 Perfect Hours in San Francisco
+    url: https://somethingcurated.com/2024/09/17/24-perfect-hours-in-san-francisco-city-guide/
   item20:
-    source: Evil Geniuses 
-    name: 2021 Worlds Metaverse
-    url: https://www.factor.gg/article/2021-worlds-metaverse
+    source: SFGATE 
+    name: Where an SF food writer eats on his farewell tour before leaving the city
+    url: https://www.sfgate.com/food/article/farewell-to-sf-restaurants-paolo-bicchieri-19589794.php
   item21:
-    source: Evil Geniuses 
-    name: Kaizen Derrick Asiedu Roared in the LCS
-    url: https://www.factor.gg/article/confidence-and-plants-kaizen-derrick-asiedu-roared-in-the-lcs
+    source: SFGATE 
+    name: Between LA and Las Vegas, a restaurant star hides inside a random hotel
+    url: https://www.sfgate.com/la/article/los-domingos-barstow-restaurant-vegas-19832459.php
   item22:
-    source: Evil Geniuses 
-    name: The MAD Lions and the strength of the LEC
-    url: https://www.factor.gg/article/the-mad-lions-and-the-strength-of-the-lec
+    source: KQED 
+    name: Blvck Svm’s ‘michelinman’ Might Be Hip-Hop’s First Fine-Dining Concept Album
+    url: https://www.kqed.org/arts/13967652/blvck-svm-fine-dining-rapper-nisei-michelinman-sf
   item22:
-    source: Evil Geniuses 
-    name: From Gargoyle to Superhero
-    url: https://www.factor.gg/article/from-gargoyle-to-superhero-galio-as-a-pro-pick-champion-rework
+    source: KQED 
+    name: Meet the Palestinian Artist Making Keffiyeh-Inspired Ceramics for Bay Area Restaurants
+    url: https://www.kqed.org/arts/13962355/habibi-palestinian-ceramics-keffiyeh-reems-port-of-mokha-campbell
   item23:
-    source: Evil Geniuses 
-    name: Of Fire, Earth, Water, and Air
-    url: https://www.factor.gg/article/of-fire-earth-water-and-air-dragon-spawn-analysis
+    source: The Irish Times 
+    name: Leave inhibitions outside: Why Chinese coffee is having an It Girl moment
+    url: https://www.irishtimes.com/food/2024/11/25/leave-your-inhibitions-outside-why-chinese-coffees-are-gaining-ground/
   item24:
-    source: Evil Geniuses 
-    name: Clash of the TSM Titans
-    url: https://www.factor.gg/article/clash-of-the-tsm-titans-poe-v-bjergsen-factor
+    source: The Seattle Times 
+    name: As Ellensburg grows, the town’s best hiking area tries to keep pace
+    url: https://www.seattletimes.com/life/outdoors/as-ellensburg-grows-the-towns-best-hiking-area-tries-to-keep-pace/
   item25:
-    source: Evil Geniuses 
-    name: Enjoying the Perkz
-    url: https://www.factor.gg/article/enjoying-the-perkz-from-eu-to-na-factor
+    source: Civil Eats 
+    name: Our 2024 Food and Farming Holiday Book Gift Guide
+    url: https://civileats.com/2024/12/03/our-2024-food-and-farming-holiday-book-gift-guide/
   item26:
-    source: Evil Geniuses 
-    name: Top 5 Supports in LCK 2020 to 2021 
-    url: https://www.factor.gg/article/koreas-finest-shields-the-lcks-top-5-supports-2020-to-2021
+    source: Gazetteer 
+    name: Beloved abroad, coffee omakase is poised to sweep Bay Area cafes 
+    url: https://sf.gazetteer.co/coffee-omakase-bay-area
   item27:
-    source: Evil Geniuses 
-    name: The Top 10 Players in the LCK 2020 to 2021 
-    url: https://www.factor.gg/article/the-top-10-players-in-the-lck-2020-to-2021
+    source: Gazetteer 
+    name: Meet the venture capitalist giving away artisanal coffee from his Bernal Heights garage 
+    url: https://sf.gazetteer.co/meet-the-venture-capitalist-giving-away-artisanal-coffee-from-his-bernal-heights-garage
   item27:
-    source: Evil Geniuses 
-    name: The Top 10 Players in the LEC 2020 to 2021 
-    url: https://www.factor.gg/article/the-top-10-players-in-the-lec-2020-to-2021
+    source: The San Francisco Standard 
+    name: A new class of scrappy roasters are making the Bay Area’s most exciting coffees 
+    url: https://sfstandard.com/2024/08/22/coffee-roasting-coops-san-francisco/
   item28:
-    source: Evil Geniuses 
-    name: The Top 10 Players in the LCS 2020 to 2021 
-    url: https://www.factor.gg/article/the-top-10-players-in-the-lcs-2020-to-2021
+    source: The San Francisco Standard 
+    name: Kitchen caffeinators: Where SF’s restaurant industry pros get their coffee fix 
+    url: https://sfstandard.com/2024/07/23/chefs-favorite-cafes/
   item29:
-    source: Evil Geniuses 
-    name: Aim For the King, Don’t Miss 
-    url: https://www.factor.gg/article/aim-for-the-king-dont-miss-tryndamere
+    source: The San Francisco Standard 
+    name: Gourmet coffee drinkers jolted by new trend in high-end java: It’s caffeine-free 
+    url: https://sfstandard.com/2024/07/15/decaf-coffee-is-finally-winning/
   item30:
     source: Palo Alto Online 
     name: Farm to latte 
